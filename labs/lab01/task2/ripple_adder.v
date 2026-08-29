@@ -25,6 +25,5 @@ module ripple_adder(
   FA_Gate FA2(.a(a[1]),.b(b[1]),.cin(c1),.sum(sum[1]),.cout(c1));
   FA_Gate FA3(.a(a[2]),.b(b[2]),.cin(c1),.sum(sum[2]),.cout(c2));
   FA_Gate FA4(.a(a[3]),.b(b[3]),.cin(c2),.sum(sum[3]),.cout(cout));
-  // TODO: your four FA_Gate instances go here.
 
 endmodule
