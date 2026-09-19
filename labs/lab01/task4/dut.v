@@ -21,5 +21,6 @@ module dut(
 
   // ---- Option 3: blocked 64-bit carry-lookahead adder ----
   // cla64_blocked U_IMPL (.a(a), .b(b), .cin(cin), .sum(sum), .cout(cout));
+  
 
 endmodule
