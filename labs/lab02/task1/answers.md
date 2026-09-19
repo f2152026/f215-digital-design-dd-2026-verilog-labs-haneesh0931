@@ -1,0 +1,1 @@
+Dataflow needs a net because a continuous assignment drives a connection continuously; a Verilog reg is a procedural variable. Behavioral modeling needs a reg because an always block assigns a variable procedurally; a wire cannot be a procedural assignment target.
